@@ -19,3 +19,11 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 
     def __str__(self):
         return self.email
+
+class Employee(models.Model):
+    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    created_date = models.DateTimeField(auto_now_add=True, blank=True) 
+
+    def __str__(self):
+        "Returns the employee's email."
+        return f"{self.user.email}"
