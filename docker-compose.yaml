@@ -15,7 +15,13 @@ services:
       - postgres_data:/var/lib/postgresql/data/
     environment:
       - "POSTGRES_HOST_AUTH_METHOD=trust"
-
+  redis:
+      image: redis:alpine
+      restart: always
+      expose:
+        - '6379'
+      ports:
+        - '6379:6379'
   nginx:
     container_name: nginx
     image: nginx:latest
