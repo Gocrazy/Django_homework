@@ -8,8 +8,8 @@ services:
       - PORT=8000
       - "DJANGO_DEBUG=True"
       - "EMAIL_HOST=smtp.gmail.com"
-      - "EMAIL_HOST_USER=crazylorenzo@gmail.com"
-      - "EMAIL_HOST_PASSWORD=puhr toww vkuk wgly"
+      - "EMAIL_HOST_USER="
+      - "EMAIL_HOST_PASSWORD="
     depends_on:
       - db
   db:
