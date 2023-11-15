@@ -9,7 +9,8 @@
 
 
 ---
-Python 1.11
-DB Postgres 13
-Nginx latest 
-Redis latest alpine
+- Python 1.11
+- Django 4.2.7
+- DB Postgres 13
+- Nginx latest 
+- Redis latest alpine
