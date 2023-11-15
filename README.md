@@ -15,3 +15,4 @@
 - DB Postgres 13
 - Nginx latest 
 - Redis latest alpine
+<img width="1197" alt="image" src="https://github.com/Gocrazy/Django_homework/assets/106258/576e18b8-876b-4553-b717-4e3c8b8815cc">
