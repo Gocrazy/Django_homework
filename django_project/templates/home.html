@@ -1,5 +1,5 @@
 {% extends '_base.html' %}
-
+{% load static %}
 {% block title %}Home{% endblock %}
 
 {% block content %}
@@ -11,4 +11,4 @@
   <a href="{% url 'login' %}">Log In</a> |
   <a href="{% url 'signup' %}">Sign Up</a>
 {% endif %}
-{% endblock %}
+{% endblock content%}
