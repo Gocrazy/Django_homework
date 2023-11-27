@@ -7,7 +7,7 @@ user_logger = logging.getLogger("user")
 @receiver(user_logged_in)
 def log_user_login(sender, user, **kwargs):
     """ log user login to user log """
-    user.is_staff = True
+    # user.is_staff = True
     
     if user.is_staff:
         employee_active = Employee(user=user)
